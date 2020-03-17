@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.mapper.TUserMapper">
+  <resultMap id="BaseResultMap" type="com.qf.entity.TUser">
+    <id column="id" javaType="java.lang.Integer" property="id"/>
+    <result column="uname" javaType="java.lang.String" property="uname" />
+    <result column="password" javaType="java.lang.String" property="password" />
+    <result column="phone" javaType="java.lang.String" property="phone" />
+    <result column="email" javaType="java.lang.String" property="email" />
+    <result column="flag" javaType="java.lang.Integer" property="flag" />
+    <result column="create_time" javaType="java.lang.String" property="createTime" />
+    <result column="create_user" javaType="java.lang.Integer" property="createUser" />
+    <result column="update_time" javaType="java.lang.String" property="updateTime" />
+    <result column="update_user" javaType="java.lang.Integer" property="updateUser" />
+  </resultMap>
+  <insert id="insert" parameterType="com.qf.entity.TUser">
+        insert into t_user(uname, password, phone, email,flag, create_time, create_user, update_time, update_user) VALUES
+        (#{uname},#{password},#{phone},#{email},#{flag},#{createTime},#{createUser},#{updateTime},#{updateUser})
+  </insert>
+  <select id="selectUser" resultMap="BaseResultMap">
+    select * from t_user where uname=#{uname}
+  </select>
+</mapper>

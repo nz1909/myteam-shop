@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/my-project-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-service/my-project-service-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-service/my-project-service-index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-service/my-project-service-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-service/my-project-service-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-web/my-project-web-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-web/my-project-web-index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-web/my-project-web-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-web/my-project-web-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-project-zuul" charset="UTF-8" />
+  </component>
+</project>

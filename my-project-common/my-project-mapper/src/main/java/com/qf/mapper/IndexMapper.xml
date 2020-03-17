@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.mapper.IndexMapper">
+    <resultMap id="queryIndexMapper" type="com.qf.entity.TProductType">
+        <id column="cid" javaType="java.lang.Integer" property="cid"/>
+        <result column="cname" javaType="java.lang.String" property="cname" />
+        <result column="pid" javaType="java.lang.Integer" property="pid" />
+        <result column="flag" javaType="java.lang.Integer" property="flag" />
+        <result column="create_time" javaType="java.lang.String" property="createTime" />
+        <result column="update_time" javaType="java.lang.String" property="updateTime" />
+        <result column="create_user" javaType="java.lang.Integer" property="createUser" />
+        <result column="update_user" javaType="java.lang.Integer" property="updateUser" />
+    </resultMap>
+        <select id="selectAllQuery" resultMap="queryIndexMapper">
+            select * from t_product_type
+        </select>
+</mapper>

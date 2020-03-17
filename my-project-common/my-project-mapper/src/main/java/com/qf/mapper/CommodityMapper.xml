@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.mapper.CommodityMapper">
+    <resultMap id="Commodity" type="com.qf.entity.TCommodity">
+        <id column="co_id" javaType="java.lang.Integer" property="coId"/>
+        <result column="co_name" javaType="java.lang.String" property="coName" />
+        <result column="co_images" javaType="java.lang.String" property="coImages" />
+        <result column="co_price" javaType="java.lang.String" property="coPrice" />
+        <result column="code" javaType="java.lang.Integer" property="code" />
+    </resultMap>
+        <select id="selectQueryCommpdity" resultMap="Commodity">
+                select * from t_commodity
+        </select>
+
+    <select id="selectQuery" resultMap="Commodity">
+            select * from t_commodity where co_id=#{coId}
+    </select>
+</mapper>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-project-service-sso" />
+        <module name="my-project-service-cart" />
+        <module name="my-project-service" />
+        <module name="my-project-web" />
+        <module name="my-project-eureka-server" />
+        <module name="my-project-service-index" />
+        <module name="my-project-entity" />
+        <module name="my-project-web-cart" />
+        <module name="my-project-zuul" />
+        <module name="my-project-web-order" />
+        <module name="my-project-service-order" />
+        <module name="my-project-web-sso" />
+        <module name="my-project-mapper" />
+        <module name="my-project-web-index" />
+        <module name="my-project-basic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-project-basic" target="1.5" />
+      <module name="my-project-common" target="1.5" />
+      <module name="my-project-dependencies" target="1.5" />
+      <module name="my-project-entity" target="1.5" />
+      <module name="my-project-eureka-server" target="1.8" />
+      <module name="my-project-fegin" target="1.8" />
+      <module name="my-project-mapper" target="1.5" />
+      <module name="my-project-regist-service" target="1.8" />
+      <module name="my-project-regist-web" target="1.8" />
+      <module name="my-project-service" target="1.5" />
+      <module name="my-project-service-cart" target="1.8" />
+      <module name="my-project-service-index" target="1.8" />
+      <module name="my-project-service-order" target="1.8" />
+      <module name="my-project-service-sso" target="1.8" />
+      <module name="my-project-web" target="1.5" />
+      <module name="my-project-web-cart" target="1.8" />
+      <module name="my-project-web-index" target="1.8" />
+      <module name="my-project-web-order" target="1.8" />
+      <module name="my-project-web-sso" target="1.8" />
+      <module name="my-project-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-project-eureka-server" options="-parameters" />
+      <module name="my-project-fegin" options="-parameters" />
+      <module name="my-project-regist-service" options="-parameters" />
+      <module name="my-project-regist-web" options="-parameters" />
+      <module name="my-project-service-cart" options="-parameters" />
+      <module name="my-project-service-index" options="-parameters" />
+      <module name="my-project-service-order" options="-parameters" />
+      <module name="my-project-service-sso" options="-parameters" />
+      <module name="my-project-web-cart" options="-parameters" />
+      <module name="my-project-web-index" options="-parameters" />
+      <module name="my-project-web-order" options="-parameters" />
+      <module name="my-project-web-sso" options="-parameters" />
+      <module name="my-project-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

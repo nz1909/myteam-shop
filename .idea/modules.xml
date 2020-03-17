@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-basic/my-project-basic.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-basic/my-project-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-common.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-entity/my-project-entity.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-entity/my-project-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-eureka-server/my-project-eureka-server.iml" filepath="$PROJECT_DIR$/my-project-eureka-server/my-project-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-mapper/my-project-mapper.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-mapper/my-project-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-service.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-service-cart/my-project-service-cart.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-service-cart/my-project-service-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-service-index/my-project-service-index.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-service-index/my-project-service-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-service-order/my-project-service-order.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-service-order/my-project-service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-service/my-project-service-sso/my-project-service-sso.iml" filepath="$PROJECT_DIR$/my-project-service/my-project-service-sso/my-project-service-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-web.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-web-cart/my-project-web-cart.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-web-cart/my-project-web-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-web-index/my-project-web-index.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-web-index/my-project-web-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-web-order/my-project-web-order.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-web-order/my-project-web-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-web/my-project-web-sso/my-project-web-sso.iml" filepath="$PROJECT_DIR$/my-project-web/my-project-web-sso/my-project-web-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-zuul/my-project-zuul.iml" filepath="$PROJECT_DIR$/my-project-zuul/my-project-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/myteam-shop.iml" filepath="$PROJECT_DIR$/.idea/myteam-shop.iml" />
+    </modules>
+  </component>
+</project>
