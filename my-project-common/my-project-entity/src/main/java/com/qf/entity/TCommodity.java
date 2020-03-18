@@ -8,7 +8,7 @@ public class TCommodity implements Serializable {
   private Integer coId;
   private String coName;
   private String coImages;
-  private String coPrice;
+  private Integer coPrice;
   private Integer code;
 
   public Integer getCoId() {
@@ -35,11 +35,11 @@ public class TCommodity implements Serializable {
     this.coImages = coImages;
   }
 
-  public String getCoPrice() {
+  public Integer getCoPrice() {
     return coPrice;
   }
 
-  public void setCoPrice(String coPrice) {
+  public void setCoPrice(Integer coPrice) {
     this.coPrice = coPrice;
   }
 

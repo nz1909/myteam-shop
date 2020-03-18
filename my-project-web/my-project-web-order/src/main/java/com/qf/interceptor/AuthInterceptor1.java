@@ -4,6 +4,7 @@ import com.qf.constant.CookieConstant;
 import com.qf.constant.RedisConstant;
 import com.qf.entity.TUser;
 import com.qf.util.StringUtil;
+import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
@@ -33,9 +34,10 @@ public class AuthInterceptor1 implements HandlerInterceptor {
                     Object o = redisTemplate.opsForValue().get(redisKey);
                     if(o!=null){
                         //用户已登录
-                        TUser tUser = (TUser) o;
+                        JSONObject jsonObject=JSONObject.fromObject(o); // 将数据转成json字符串
+                        TUser user = (TUser) JSONObject.toBean(jsonObject, TUser.class);//将json转成需要的对象
                         //存入到request域中
-                        request.setAttribute("user",tUser);
+                        request.setAttribute("user",user);
                         return true;
 
                     }

@@ -7,7 +7,7 @@
         <id column="co_id" javaType="java.lang.Integer" property="coId"/>
         <result column="co_name" javaType="java.lang.String" property="coName" />
         <result column="co_images" javaType="java.lang.String" property="coImages" />
-        <result column="co_price" javaType="java.lang.String" property="coPrice" />
+        <result column="co_price" javaType="java.lang.Integer" property="coPrice" />
         <result column="code" javaType="java.lang.Integer" property="code" />
     </resultMap>
         <select id="selectQueryCommpdity" resultMap="Commodity">

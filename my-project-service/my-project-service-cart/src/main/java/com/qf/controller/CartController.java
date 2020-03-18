@@ -189,6 +189,8 @@ public class CartController {
                     //去reids中取
                     // product:10
                     String productKey = StringUtil.getRedisKey(RedisConstant.PRODUCT_PRE, cartItem.getCoId().toString());
+                    //显示商品
+
                     TCommodity pro = (TCommodity) redisTemplate.opsForValue().get(productKey);
                     if(pro==null){
                         //去数据库拿。再存redis
@@ -203,11 +205,13 @@ public class CartController {
                     cartDTO.setCount(cartItem.getCount());
                     cartDTO.setUpdateTime(cartItem.getUpdateTime());
                     //存到product集合中
-                    String coPrice = pro.getCoPrice();
-
+                    Integer coPrice = pro.getCoPrice();
                     cartDTO.setPrice(coPrice);
                     products.add(cartDTO);
+
                 }
+                String productKeys = StringUtil.getRedisKey(RedisConstant.PRODUCT_PRE, "sp");
+                redisTemplate.opsForValue().set(productKeys,products);
                 //对集合中的元素进行排序，Comparator 用来指明排序依据。
                 Collections.sort(products, new Comparator<TProductCartDTO>() {
                     @Override

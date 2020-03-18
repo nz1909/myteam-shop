@@ -1,7 +1,7 @@
 package com.qf.constant;
 
 import com.qf.entity.TCommodity;
-import com.qf.entity.TProduct;
+
 
 import java.io.Serializable;
 import java.util.LinkedList;
