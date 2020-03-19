@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/my-project-service/my-project-service-cart/pom.xml" />
         <option value="$PROJECT_DIR$/my-project-web/my-project-web-order/pom.xml" />
         <option value="$PROJECT_DIR$/my-project-service/my-project-service-order/pom.xml" />
+        <option value="$PROJECT_DIR$/my-project-web/my-project-web-alipay/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

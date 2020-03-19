@@ -10,6 +10,16 @@ public class TCommodity implements Serializable {
   private String coImages;
   private Integer coPrice;
   private Integer code;
+  private  Integer stock;
+
+
+  public Integer getStock() {
+    return stock;
+  }
+
+  public void setStock(Integer stock) {
+    this.stock = stock;
+  }
 
   public Integer getCoId() {
     return coId;

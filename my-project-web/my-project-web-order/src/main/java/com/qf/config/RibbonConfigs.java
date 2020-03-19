@@ -1,6 +1,6 @@
 package com.qf.config;
 
-import com.qf.interceptor.AuthInterceptor1;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -18,11 +18,11 @@ public class RibbonConfigs  implements WebMvcConfigurer {
         return new RestTemplate();
     }
 
-    @Autowired
-    private AuthInterceptor1 authInterceptor;
-
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(authInterceptor).addPathPatterns("/**");
-    }
+//    @Autowired
+//    private AuthInterceptor1 authInterceptor;
+//
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(authInterceptor).addPathPatterns("/**");
+//    }
 }

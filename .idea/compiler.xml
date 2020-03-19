@@ -11,6 +11,7 @@
         <module name="my-project-service" />
         <module name="my-project-web" />
         <module name="my-project-eureka-server" />
+        <module name="my-project-web-alipay" />
         <module name="my-project-service-index" />
         <module name="my-project-entity" />
         <module name="my-project-web-cart" />
@@ -39,6 +40,7 @@
       <module name="my-project-service-order" target="1.8" />
       <module name="my-project-service-sso" target="1.8" />
       <module name="my-project-web" target="1.5" />
+      <module name="my-project-web-alipay" target="1.8" />
       <module name="my-project-web-cart" target="1.8" />
       <module name="my-project-web-index" target="1.8" />
       <module name="my-project-web-order" target="1.8" />
@@ -56,6 +58,7 @@
       <module name="my-project-service-index" options="-parameters" />
       <module name="my-project-service-order" options="-parameters" />
       <module name="my-project-service-sso" options="-parameters" />
+      <module name="my-project-web-alipay" options="-parameters" />
       <module name="my-project-web-cart" options="-parameters" />
       <module name="my-project-web-index" options="-parameters" />
       <module name="my-project-web-order" options="-parameters" />
